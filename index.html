@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My portfolio</title>
+<style>
+      
+        h1{font-size: 30px;  text-align: center;}
+   h3{font-size: 20px; }
+   
+    main{max-width: 1020px;
+    margin: 0 auto;}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;   
+    color: #FFFFFF;              
+}
+nav {
+    background-color: #020C1B;  
+    padding: 15px;
+}
+
+nav a {
+    color: #64FFDA;              
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+
+section {
+    padding: 50px;
+}
+
+
+h1, h2, h3 {
+    color: #64FFDA;    
+}
+
+
+button {
+    background-color: #64FFDA;  
+    color: #0A192F;            
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #52e0c4;
+}
+
+
+.card {
+    background-color: #112240;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    .mylogo{
+    max-width: 150px;
+    height: 150;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+
+
+#myform form{ max-width: 400px; margin: 0 auto;} 
+
+#myform input,
+#myform textarea,
+#myform select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#myform input[type="radio"],
+#myform input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+.gender-group,
+.hobby-group{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.form-outer{ display: flex; text-align: center;}
+
+.navbar{
+    text-align: center;
+  
+    padding: 15px;
+}
+.navbar a{
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+   
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+  
+    padding: 10px;
+    color: aliceblue;
+    align-items:center ;
+}
+.inner-nav{
+    display: flex;
+    gap: 10px;
+}
+.inner-nav{
+
+    text-decoration: none;
+}
+.my-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.my-cards .card{
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media (max-width:786px) {
+    .my-cards{display: flex; flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+
+.outer-form{flex-direction: column;}
+</style>
+
+
+
+
+<body>
+   <main>
+    <nav class="navbar">
+       <img class="mylogo" src="WhatsApp Image 2025-10-04 at 10.10.41.jpeg" alt="My logo image">
+         <div class="inner-nav"></div>
+       <br> <a href="#myhobby" target="">my hobby</a>
+        <br><a href="https://www.biyanicolleges.org/chatbot.html">college</a><br>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://excel.cloud.microsoft/en-us/&ved=2ahUKEwjK4-GcpPyTAxWm_aACHa7pHJwQFnoECBEQAQ&usg=AOvVaw2WaUYiba40Irs38qEr-7Ko">about us </a><br>
+<a href="#myform">contect me</a></div>
+   </nav> 
+    <section  id="aboutme" class="myclass" >
+<h1><i>my name is Ankit gupta.</i></h1>
+<div class="my-cards">
+    <div class="card">
+<h2>my name is 😍Ankit gupta😍.</h2>
+<h3>om namh shivay.</h3>
+<h4>radhe radhe hare krishna .</h4>
+<h5>om krishnay wasudeya harey parmat mane
+    prntah caleshnashay .</h5>
+    </div>
+    <div class="card">
+<h6>govinday namo namh.</h6>
+<p> i am from jaipur and my college name is  BIYANI college. </p>
+<h3>"I study at Biyani College, and I have a strong interest in cybersecurity and ethical hacking. I really
+     enjoy learning about hacking."
+</h3></div></div>
+</section>
+
+<section id="myhobby" class="myclass">
+    <h1>my hobby </h1>
+    <div class="my-cards">
+        <div class="card">
+    <h3>My hobby is using computers and learning new technology. 
+        I like to learn about operating systems, HTML, and basic 
+        computer skills. In my free time, I enjoy practicing coding 
+        and exploring new software. This hobby helps me increase my 
+        knowledge and improve my technical skills.</div>
+        <div class="card">
+         It is both useful and interesting for my future career.</h3>
+         <p>My hobby is using computers and learning new technology.
+I enjoy practicing coding and exploring new software 
+in my free time.
+This hobby helps me improve my knowledge and skills.</p>
+  
+</div></div>
+</section>
+
+<section  id="progress">
+  
+    <div class="my-cards">
+        <div class="card">
+              <label><h1>choose your favourit color</h1></label>
+     <input type="color" name="color"><br>
+    <label>my html progreges</label>
+    <progress value="80" max="100"></progress></div>
+<br>
+<div class="card">
+    <label>myb course progress</label>
+    <meter value="7" min="3" max="10" low="4" high="7"></meter>
+    </div></div>
+</section>
+
+<section id="myform">
+    <h1>contect us</h1>
+    <div class="form-outer">
+<div class="my-detalis">
+    <h3>my email</h3>
+    <p>ankitgupta@gmail.com</p>
+    <h3>my contect</h3>
+    <p>7850872572</p>
+</div>
+  
+   <form id="myform">
+         <b>Name:<input type="text" id="name" name="text" placeholder="Your name">
+
+         <br>Email: <input id="email" type="email" name="email" id="email" placeholder="Your email"><br>
+
+         <br>password:<input id="password" type="password" name="password"
+          id="password" placeholder="password"><br>
+<p>
+       <b>gender :</b>
+       <label>
+         <input type="radio" name="gender">male
+         </label>
+         <label>
+         <input type="radio" name="gender">female
+         </label>
+         </p>
+<p>
+         <b>hobby:<b>
+            <label>
+         <input type="checkbox">hacking
+         </label>
+         <label>
+         <input type="checkbox"> codding
+         </label></p>
+         <br><textarea rows="5" id="textarea" placeholder="Your message"></textarea></b>
+         
+         <select>
+<option>1st yesr</option>
+<option>2nd year</option>
+<option>3rd year</option>
+         </select>
+         <input list="safari" id="mylist" placeholder="select or type....">
+         <datalist id="safari">
+            <option>1st yesr</option>
+           <option>2nd year</option>
+           <option>3rd year</option>
+         </datalist>
+        
+      
+         <br>
+         <input type="date" name="date" width="">
+         <br>
+         <input type="range" value="80" max="100">
+        <br> <input type="submit" value="submit">
+    </form>
+    </div>
+</section>
+<script>
+    let myform = document.getElementById("myform");
+    myform.addEventListener("submit",function(event){
+        event.preventDefault();
+
+        let myname = document.getElementById("name");
+        let namevalue = myname.value;
+
+        let myemail = document.getElementById("email");
+        let emailvalue = myemail.value;
+
+        let mypassword = document.getElementById("password");
+        let passwordvalue = mypassword.value;
+
+                let mytextarea = document.getElementById("textarea");
+        let textareavalue = mytextarea.value;
+
+        if(namevalue === ""){
+            alert("enter values  first");
+        }
+else if(emailvalue=== ""){
+    alert("enter email first");
+}
+
+else if(passwordvalue=== ""){
+    alert("enter password first");
+}
+
+else if(textareavalue=== ""){
+    alert("enter your suggestion for a textarea");
+}
+        else{
+            alert("success!!!");
+            
+        }
+    });
+</script>
+
+<section id="details">
+    <details>
+        <summary>
+            i have a secrate
+        </summary>
+        <p>i can solve the rubik's cube in a minute.</p> </details>
+    </section>
+
+    <section id="mytable">
+        <h1>my table</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                <th>sr.no</th>
+                <th>Name</th>
+                <th>subject</th>
+                <th>hobby</th>
+                <th>progress</th>
+                <th>meter</th>
+            </thead>
+            <tr>
+            <tbody>
+                <tr>
+                <td>101</td>
+                <td>😍Ankit</td>
+                <td>BCA</td>
+            <td>codding</td>
+   <td> <progress value="80" max="100"></progress></td>
+<td> <meter value="7" min="3" max="10" low="4" high="7"></meter></td></tr>
+                <tr>
+                    <td>102</td>
+                    <td>dipanshu</td>
+                    <td>BCA</td>
+                    <td>hacking</td>
+                   <td> <progress value="50" max="100"></progress></td>
+                   <td> <meter value="5" min="3" max="10" low="4" high="7"></meter></td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<section  style="text-align: center;">
+    <h1>my audio</h1>
+    <audio controls>
+        <source src="beran.mp3" type="audio/mp3">
+    </audio><br> 
+    </section>
+
+    <section style="text-align: center;">
+        <h1> my vedio</h1>
+    <video loop controls muted style="width: 20%; padding: 40px 30px; size: 30%;">
+   <source src="vedio14.mp4"  type="video/mp4">
+    </video>
+    </section>
+</main>
+
+<section style="text-align: center;">
+
+<input id="mytitle" type="text" name="text" placeholder="enter your text here......">
+<button onclick="changetext()"> click to trasnform</button>
+<p id="showquote"></p>
+<script>
+function changetext(){
+    let initialtext = document.getElementById("mytitle");
+    let myvalue =  initialtext.value;
+    let  myquote =  document.getElementById("showquote");
+    myquote.innerText = myvalue;
+    initialtext.value = "";
+}
+</script>
+</section>
+
+</body>
+
+</head>
+
+</html>
